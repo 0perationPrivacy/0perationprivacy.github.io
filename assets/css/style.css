@@ -390,7 +390,7 @@ h6 {
 
 @media (max-width: 1024px), (max-height: 768px) {
     #hero {
-        margin-bottom: -150px;
+        /* margin-bottom: -150px; */
         height: 80vh;
     }
 }
@@ -419,7 +419,11 @@ h6 {
 }
 
 #hero .dash {
-    height: 60%;
+    max-height: 150px;
+    text-align: center;
+}
+#hero .col {
+    text-align: center;
 }
 
 @keyframes slideInFromLeft {
