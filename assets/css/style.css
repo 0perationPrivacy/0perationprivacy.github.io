@@ -729,7 +729,7 @@ section {
 /* ------------ ribbon ------------ */
 body:after {
     z-index: 9999;
-    content: " beta";
+    content: "beta";
     position: fixed;
     width: 100px;
     height: 25px;
