@@ -728,20 +728,21 @@ section {
 
 /* ------------ ribbon ------------ */
 body:after {
-    z-index: 9999;
-    content: "beta";
+    z-index: 3;
+    content: "coming soon";
     position: fixed;
-    width: 100px;
-    height: 25px;
+    width: 117px;
+    height: 18px;
     background: rgb(var(--orange));
-    top: 8px;
+    top: 25px;
     right: -25px;
+    padding: 1px 0 3px 0;
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(var(--white));
-    line-height: 25px;
+    line-height: 18px;
     transform: rotate(45deg);
 }
 
