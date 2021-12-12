@@ -488,9 +488,9 @@ section {
 
 .quickfacts .content {
     padding: 30px;
-    background: rgb(var(--orange));
+    background: rgba(var(--white), 0.75);
     border-radius: 4px;
-    color: rgb(var(--white));
+    color: rgb(var(--gray));
 }
 
 .quickfacts .content h3 {
@@ -502,6 +502,12 @@ section {
 .quickfacts .box,
 .pricing .box {
     height: 100%;
+}
+.box {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.8) !important;
+}
+.box:hover {
+    box-shadow: 0 .5rem 1rem rgba(218, 207, 180, 0.5) !important;
 }
 
 .quickfacts .box > span {
@@ -601,8 +607,8 @@ section {
     list-style: none;
     color: rgb(var(--black));
     text-align: left;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 23px;
 }
 
 .pricing ul i {
@@ -752,14 +758,21 @@ body:after {
         overflow: auto;
     }
     .quickfacts .content {
-        padding: 15px 5px 5px 5px;
-        line-height: 1.7;
+        padding: 15px 5px 25px 5px;
+        line-height: 1;
     }
     .pricing ul,
     .quickfacts .box ul {
-        font-size: 12px;
+        font-size: 18px;
     }
     .pricing h3 {
         font-size: 18px;
     }
+}
+.infoSections {
+    width: 100%;
+    font-size: 1.2rem;
+}
+.infoSections ul {
+    margin-bottom: 0px;
 }
