@@ -172,6 +172,7 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
+    font-family: "Skia", sans-serif;
 }
 
 .navbar li {
@@ -560,6 +561,7 @@ section {
 #transparency .box ul {
     list-style: circle;
     margin-left: 10px;
+    font-size: 16px;
 }
 
 .pricing .box {
