@@ -735,7 +735,7 @@ section {
 }
 
 /* ------------ ribbon ------------ */
-body:after {
+/* body:after {
     z-index: 3;
     content: "beta";
     position: fixed;
@@ -752,7 +752,7 @@ body:after {
     color: rgb(var(--white));
     line-height: 18px;
     transform: rotate(45deg);
-}
+} */
 
 @media (max-width: 1200px) {
     .quickfacts .content h3 {
