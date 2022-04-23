@@ -1,0 +1,30 @@
+<section class="feed">
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+        <div class="post_content">
+        <li>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {%- if post.image -%}
+              <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-img">
+          {%- else -%}
+          {%- assign postimage = "/img/default.jpg" -%}
+              <img src="{{- postimage | relative_url -}}" alt="" class="blog-roll-img">
+          {%- endif -%}
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+         
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <div class="categories">{{ post.categories }}</div>
+          <h3>
+            
+              {{ post.title | escape }}
+            
+          </h3>
+        </a>
+            <span>{{ post.content | strip_html |truncate: 200 }}</span>
+        
+        </li>
+    </div>
+        {%- endfor -%}
+      </ul>
+</section>
+

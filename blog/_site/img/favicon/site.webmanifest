@@ -1,0 +1,23 @@
+{
+    "short_name": "Operation Privacy",
+    "name": "Operation Privacy Website",
+    "icons": [
+        {
+            "src": "/img/favicon/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/favicon/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "scope": "/",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone"
+}
