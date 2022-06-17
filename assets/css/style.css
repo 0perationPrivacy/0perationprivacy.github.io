@@ -184,7 +184,7 @@ h6 {
 
 .navbar a,
 .navbar a:focus {
-    display: flex;
+    display: list-item;
     align-items: center;
     justify-content: space-between;
     font-size: 16px;
@@ -192,6 +192,7 @@ h6 {
     color: white;
     white-space: nowrap;
     transition: 0.3s;
+    text-align: center;
 }
 
 .navbar a i,
@@ -265,7 +266,7 @@ h6 {
     position: absolute;
     top: 55px;
     right: 15px;
-    bottom: 15px;
+    /* bottom: 15px; */
     left: 15px;
     padding: 10px 0;
     border-radius: 10px;
@@ -398,7 +399,7 @@ h6 {
 
 @media (max-width: 768px) {
     #hero {
-        height: 95vh;
+        height: 120vh;
     }
 
     #hero h1 {
