@@ -7,7 +7,8 @@
 
 /* ------------- Theme Colors ------------- */
 :root {
-    --orange: 255, 88, 33;
+    /* --orange: 255, 88, 33; */
+    --orange: 251, 176, 59;
     --dark-orange: 78, 66, 63;
     --logo-orange: 244, 179, 36;
     --black: 18, 18, 18;
@@ -362,7 +363,7 @@ h6 {
 }
 
 #hero h2 {
-    color: rgb(var(--white));
+    color: rgb(var(--orange));
     margin-bottom: 30px;
     font-size: 24px;
 }
@@ -469,10 +470,10 @@ section {
 
 .section-title h2 {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: rgb(var(--dark-orange));
+    color: rgb(var(--orange));
 }
 
 .section-title p {
@@ -554,7 +555,6 @@ section {
 /* --------------------------------------------------------------
 # transparency
 -------------------------------------------------------------- */
-#transparency  h2,
 #transparency p {
     color: rgb(var(--white));
 }
@@ -774,7 +774,7 @@ section {
 }
 .infoSections {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1 rem;
 }
 .infoSections ul {
     margin-bottom: 0px;
@@ -782,5 +782,5 @@ section {
 .highlighted-text {
     color: black;
     font-weight: bold;
-    background-color: yellow;
+    background-color: rgb(var(--orange));
 }
