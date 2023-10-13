@@ -374,8 +374,8 @@ h6 {
     letter-spacing: 1px;
     display: inline-block;
     transition: 0.5s;
-    margin-left: -10px;
-    padding: 8px 26px 8px 26px;
+    margin-left: -15px;
+    padding: 8px 26px 8px 33px;
     color: rgb(var(--white));
     background: rgb(var(--dark-orange));
     border-radius: 0 50px 50px 0;
@@ -385,6 +385,7 @@ h6 {
 
 #hero .btn-get-started:hover {
     background: rgb(var(--orange));
+    color: rgb(var(--black));
 }
 
 #hero {
